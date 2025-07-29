@@ -1,0 +1,49 @@
+/* Theme Variables - Easy to customize */
+:root {
+    /* Main Colors */
+    --bg-dark: #0a0a0a;
+    --bg-darker: #000000;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    
+    /* Accent Colors */
+    --accent-coral: #ff6b6b;
+    --accent-blue: #4ecdc4;
+    --accent-purple: #a78bfa;
+    --accent-orange: #ff9f43;
+    --accent-pink: #ff0080;
+    --accent-green: #00ff88;
+    
+    /* Gradients */
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --gradient-4: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    --gradient-5: linear-gradient(135deg, #ff0080 0%, #ff8c00 100%);
+    --gradient-6: linear-gradient(90deg, #00f2fe, #a78bfa, #ff0080);
+    --gradient-rainbow: linear-gradient(135deg, #ff0080 0%, #ff8c00 100%);
+    
+    /* Typography Sizes */
+    --font-size-hero: clamp(4rem, 12vw, 10rem);
+    --font-size-hero-subtitle: clamp(1.5rem, 3vw, 2.5rem);
+    --font-size-section-title: clamp(3rem, 8vw, 6rem);
+    --font-size-h3: 1.8rem;
+    --font-size-body: 1.1rem;
+    --font-size-small: 0.95rem;
+    
+    /* Spacing */
+    --nav-padding: 2rem 4rem;
+    --nav-padding-scrolled: 1rem 4rem;
+    --section-padding: 10rem 4rem;
+    
+    /* Animation Timings */
+    --animation-duration: 0.4s;
+    --animation-ease: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Dark mode variables (can add light mode later) */
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Add light mode colors here if needed */
+    }
+}

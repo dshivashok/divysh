@@ -1,0 +1,25 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": ["Python", "C++", "JavaScript", "Java", "C#", "C", "HTML/CSS", "LaTeX", "Octave"]
+  },
+  {
+  "category": "ML/AI Technologies",
+  "skills": [
+    "TensorFlow 2.x",
+    "TFX",
+    "PyTorch",
+    "Diffusion Models",
+    "RLHF",
+    "LoRA Fine‑Tuning",
+    "Instruction Tuning",
+    "LangChain",
+    "Pinecone"
+  ]
+}
+,
+  {
+    "category": "Tools & Platforms",
+    "skills": ["Git", "Docker", "AWS", "Google Cloud", "Microsoft Azure", "CUDA", "VS Code", "PyCharm", "Anaconda"]
+  }
+]

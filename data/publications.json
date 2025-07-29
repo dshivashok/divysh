@@ -1,0 +1,48 @@
+[
+  {
+    "venue": "CVPR 2025",
+    "title": "ShapeWords: Guiding Text-to-Image Synthesis with 3D Shape-Aware Prompts",
+    "fullVenue": "Computer Vision and Pattern Recognition (CVPR) 2025",
+    "stats": [
+      {
+        "value": "22%",
+        "label": "Acceptance Rate"
+      },
+      {
+        "value": "13,000+",
+        "label": "Submissions"
+      },
+      {
+        "value": "Top Tier",
+        "label": "Conference"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Dmitrii M Petrov",
+        "isMe": false
+      },
+      {
+        "name": "Pradyumn Goyal",
+        "isMe": false
+      },
+      {
+        "name": "Divyansh Shivashok",
+        "isMe": true
+      },
+      {
+        "name": "Yuanming Tao",
+        "isMe": false
+      },
+      {
+        "name": "Melinos Averkiou",
+        "isMe": false
+      },
+      {
+        "name": "Evangelos Kalogerakis",
+        "isMe": false
+      }
+    ],
+    "abstract": "This work introduces ShapeWords, a novel approach for enhancing text-to-image synthesis through 3D shape-aware prompts. By incorporating geometric understanding into the generation process, our method enables more precise control over spatial relationships and object formations in generated images. This research advances the field of controllable AI generation by bridging the gap between 3D understanding and 2D image synthesis."
+  }
+]

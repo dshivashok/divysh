@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "Google",
+    "date": "June 2025 – Present | Mountain View, CA",
+    "points": [
+      "Building ML models on the Age Inference team"
+    ]
+  },
+  {
+    "title": "AI/ML Software Engineer Intern",
+    "company": "Microsoft",
+    "date": "May 2024 – Aug 2024 | Redmond, WA",
+    "points": [
+      "Developed continuous learning framework for Copilot AI to learn from user behavior, resulting in greater than 90% memory recall, 33% overall improvement over baseline",
+      "Implemented pipeline using GraphRAG and multi-agentic framework, increasing coding accuracy from 67% to 90%",
+      "Engineered LLM and embedding-based framework for evaluating LLM performance with vs without memory"
+    ]
+  },
+  {
+    "title": "Computer Vision Researcher",
+    "company": "UMass Amherst CV-Graphics Lab",
+    "date": "Nov 2023 – Jan 2025 | Amherst, MA",
+    "points": [
+      "Published at CVPR 2025 (Largest Computer Vision Conference, 22% Acceptance Rate, 13,000+ Submissions)",
+      "Co-authored a publication on 3D shape-aware prompts for better user control on text-to-image synthesis",
+      "Collaborated with the UMass Amherst Computer Graphics Lab and Professor Evangelos Kalogerakis"
+    ]
+  },
+  {
+    "title": "AI Researcher",
+    "company": "MIT Computer Science and AI Lab (CSAIL)",
+    "date": "May 2023 – May 2024 | Cambridge, MA",
+    "points": [
+      "Researched geometric deep learning: 3D image generation models and learning functions for neural fields",
+      "Collaborated with MIT PhD candidate Clinton Wang on literature review"
+    ]
+  },
+  {
+    "title": "Machine Learning Engineer Intern",
+    "company": "Fisheye",
+    "date": "Jun 2023 – Sep 2023 | Maynard, MA",
+    "points": [
+      "Developed a robust MLOps framework from the ground up to analyze real-time data from embedded systems, improving data processing speed by 40% and accuracy by 25%",
+      "Engineered RAG pipelines for product proposal writing, code generation from company codebase",
+      "Achieved 70+% accuracy in air traffic classification using ML models and Big Data Preprocessing on sensor data"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "name": "Divyansh Shivashok",
+  "title": "ML-focused Software Engineer at Google",
+  "logo": "DS",
+  "about": {
+    "paragraphs": [
+      "I'm a <span class='highlight'>ML-focused Software Engineer at Google</span> with a passion for pushing the boundaries of artificial intelligence and creating innovative solutions that impact billions of users worldwide.",
+      "I recently graduated from <span class='highlight'>UMass Amherst</span> with dual B.S. degrees in Computer Science and Mathematics. I've had the privilege of publishing research at <span class='highlight'>CVPR 2025</span>, developing applied LLM solutions at Microsoft focused on continuous learning of user behavior, and building a transformer-based language model with RLHF from scratch.",
+      "I'm particularly passionate about advancing <span class='highlight'>deep-thinking LLMs, diffusion models, and multi-agent AI systems</span>, with a focus on building technology that amplifies human capabilities."
+    ],
+    "stats": [
+      {
+        "number": "3.85",
+        "label": "GPA at UMass"
+      },
+      {
+        "number": "CVPR",
+        "label": "Published 2025"
+      },
+      {
+        "number": "Top 50",
+        "label": "Chemistry Olympiad"
+      },
+      {
+        "number": "12",
+        "label": "Languages:<br>3 human<br>9 programming<br>(cuz algorithms deserve small talk too)"
+      }
+    ]
+  },
+  "contact": {
+    "text": "I'm always excited to collaborate on innovative ML projects, research opportunities, and cutting-edge AI solutions. Let's create something extraordinary together!",
+    "links": [
+      {
+        "href": "https://linkedin.com/in/divyanshshivashok",
+        "icon": "<i class='fab fa-linkedin'></i>",
+        "label": "LinkedIn",
+        "target": "_blank"
+      },
+      {
+        "href": "https://github.com/coolkite",
+        "icon": "<i class='fab fa-github'></i>",
+        "label": "GitHub",
+        "target": "_blank"
+      }
+    ]
+  }
+}
