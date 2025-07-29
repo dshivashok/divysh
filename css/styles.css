@@ -1496,6 +1496,10 @@ nav.scrolled {
         text-align: left;
     }
 
+    .about-text p {
+        text-align: left;
+    }
+
     .about-stats {
         grid-template-columns: 1fr;
         gap: 1.5rem;
