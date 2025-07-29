@@ -3,6 +3,7 @@
     "venue": "CVPR 2025",
     "title": "ShapeWords: Guiding Text-to-Image Synthesis with 3D Shape-Aware Prompts",
     "fullVenue": "Computer Vision and Pattern Recognition (CVPR) 2025",
+    "link": "https://lodurality.github.io/shapewords/",
     "stats": [
       {
         "value": "22%",

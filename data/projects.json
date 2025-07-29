@@ -2,13 +2,20 @@
   {
     "title": "Transformer with RLHF",
     "technologies": ["PyTorch", "CUDA", "Transformers", "RLHF", "PPO"],
-    "description": "Developed a 125M parameter Transformer-based language model from scratch, training on 50M+ tokens with custom token embeddings, multi-head attention, and layer normalization on a single A100 GPU. Implemented a small-scale Reinforcement Learning from Human Feedback (RLHF) pipeline using a reward model trained on ranked text completions, fine-tuned with Proximal Policy Optimization (PPO).",
+    "description": [
+      "Developed a 125M parameter Transformer-based language model from scratch, training on 50M+ tokens with custom token embeddings, multi-head attention, and layer normalization on a single A100 GPU.", 
+      "Implemented a small-scale Reinforcement Learning from Human Feedback (RLHF) pipeline using a reward model trained on ranked text completions, fine-tuned with Proximal Policy Optimization (PPO)."
+  ],
     "link": "#"
   },
   {
     "title": "RouteAble",
     "technologies": ["React Native", "TensorFlow", "PyTorch", "Blockchain", "JavaScript"],
-    "description": "Launched novel full-stack app to crowd-source images of inaccessible areas, including Blockchain stack in 36 hours. Implemented two ML models: object similarity and image detection models to identify unique images of stairs, ramps, guard rails. First and only app with embedded tag generation model for disabled users. Won 'Most Impactful Project' award at the UChicago Tech Showcase.",
+    "description": [
+      "Launched novel full-stack app to crowd-source images of inaccessible areas, including Blockchain stack in 36 hours.",
+      "Implemented two ML models: object similarity and image detection models to identify unique images of stairs, ramps, guard rails. First and only app with embedded tag generation model for disabled users.",
+      "Won 'Most Impactful Project' award at the UChicago Tech Showcase."
+    ],
     "link": "https://github.com/RouteAble"
   },
   {

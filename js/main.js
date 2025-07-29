@@ -1,26 +1,30 @@
 // Configuration loader and main initialization
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        // Load all data files
+        // Add timestamp to prevent caching
+        const timestamp = new Date().getTime();
+        
+        // Load all data files with cache-busting
         const [config, experience, projects, publications, skills] = await Promise.all([
-            fetch('data/config.json').then(r => r.json()),
-            fetch('data/experience.json').then(r => r.json()),
-            fetch('data/projects.json').then(r => r.json()),
-            fetch('data/publications.json').then(r => r.json()),
-            fetch('data/skills.json').then(r => r.json())
+            fetch(`data/config.json?v=${timestamp}`).then(r => r.json()),
+            fetch(`data/experience.json?v=${timestamp}`).then(r => r.json()),
+            fetch(`data/projects.json?v=${timestamp}`).then(r => r.json()),
+            fetch(`data/publications.json?v=${timestamp}`).then(r => r.json()),
+            fetch(`data/skills.json?v=${timestamp}`).then(r => r.json())
         ]);
 
         // Load About Section
         loadAboutSection(config.about);
 
         // Load Experience Timeline
-        console.log(config);
+        console.log('Loading experience:', experience);
         loadExperience(experience);
 
         // Load Publications
         loadPublications(publications);
 
         // Load Projects
+        console.log('Loading projects:', projects);
         loadProjects(projects);
 
         // Load Skills
@@ -64,7 +68,13 @@ function loadAboutSection(aboutData) {
 
 // Load Experience Timeline
 function loadExperience(experiences) {
+    console.log('loadExperience called with:', experiences);
     const timeline = document.getElementById('experience-timeline');
+    
+    if (!timeline) {
+        console.error('Timeline element not found');
+        return;
+    }
     
     timeline.innerHTML = experiences.map((exp, index) => `
         <div class="timeline-item">
@@ -77,6 +87,8 @@ function loadExperience(experiences) {
             </div>
         </div>
     `).join('');
+    
+    console.log('Experience timeline updated');
 }
 
 // Load Publications
@@ -104,33 +116,27 @@ function loadPublications(publications) {
                     <p>${pub.abstract}</p>
                 </div>
             ` : ''}
+            ${pub.link ? `
+                <div class="publication-actions">
+                    <a href="${pub.link}" target="_blank" class="publication-link">
+                        <i class="fas fa-external-link-alt"></i>
+                         View Demo
+                    </a>
+                </div>
+            ` : ''}
         </div>
     `).join('');
 }
 
 // Load Projects
-// function loadProjects(projects) {
-//     const grid = document.getElementById('projects-grid');
-    
-//     grid.innerHTML = projects.map((project, index) => `
-//         <div class="project-card">
-//             <div class="project-content">
-//                 <div class="project-number">0${index + 1}</div>
-//                 <h3 class="project-title">${project.title}</h3>
-//                 <div class="project-tech">
-//                     ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-//                 </div>
-//                 <p class="project-description">${project.description}</p>
-//                 ${project.link ? `<a href="${project.link}" class="project-link">View Project</a>` : ''}
-//             </div>
-//         </div>
-//     `).join('');
-// }
-
-// js/main.js
-
 function loadProjects(projects) {
+    console.log('loadProjects called with:', projects);
     const grid = document.getElementById('projects-grid');
+    
+    if (!grid) {
+        console.error('Projects grid element not found');
+        return;
+    }
     
     grid.innerHTML = projects.map((project, index) => {
         // Check if the description is an array or a plain string
@@ -151,6 +157,8 @@ function loadProjects(projects) {
             </div>
         </div>`;
     }).join('');
+    
+    console.log('Projects grid updated');
 }
 
 // Load Skills
