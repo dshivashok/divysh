@@ -45,5 +45,15 @@
       "Engineered RAG pipelines for product proposal writing, code generation from company codebase",
       "Achieved 70+% accuracy in air traffic classification using ML models and Big Data Preprocessing on sensor data"
     ]
+  },
+  {
+    "title": "Machine Learning Engineer Intern",
+    "company": "Quantiphi",
+    "date": "Jun 2021 – Sep 2021 | Marlborough, MA",
+    "points": [
+      "Built an object detection model to detect and segment liver tumors from 3D CT scan volumes",
+      "Achieved 0.98/1 DICE on LITS 2017 dataset using a 2D UNet with ResNet34 backbone",
+      "Deployed model on Google Cloud Platform's Vertex AI service"
+    ]
   }
 ]
